@@ -1,0 +1,32 @@
+[{
+  "x": "1",
+  "y": "0",
+  "r": "3",
+  "pointInArea": "true",
+  "currentTime": "01.01.70 21:06:08",
+  "executionTime": "5.6516451"
+},
+{
+  "x": "-1",
+  "y": "0",
+  "r": "4",
+  "pointInArea": "true",
+  "currentTime": "01.01.70 21:06:08",
+  "executionTime": "7.1415926"
+},
+{
+  "x": "-1",
+  "y": "-1",
+  "r": "4",
+  "pointInArea": "false",
+  "currentTime": "01.01.70 21:06:08",
+  "executionTime": "7.1415926"
+},
+{
+  "x": "1",
+  "r": "4",
+  "y": "1",
+  "pointInArea": "true",
+  "currentTime": "01.01.70 21:06:08",
+  "executionTime": "7.1415926"
+}]

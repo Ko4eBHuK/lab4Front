@@ -1,0 +1,48 @@
+<div class="card" style="width: 18rem;">
+  <img src="../../assets/media/images/flexKosta.gif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <form [formGroup]="loginForm">
+      <div class="form-group">
+        <label for="inputLogin">Login</label>
+        <input type="text"
+               class="form-control"
+               formControlName="login"
+               required
+               aria-colcount="50"
+               placeholder="enter your login"
+               id="inputLogin">
+      </div>
+      <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input type="password"
+               class="form-control"
+               required
+               aria-colcount="50"
+               placeholder="password here pls"
+               formControlName="password"
+               id="inputPassword">
+      </div>
+    <div class="login-row">
+      <div class="col-sm">
+        <button class="btn btn-success" style="font-size: 15px; padding: 2px" [disabled]="!loginForm.valid" (click)="login()">Login</button>
+      </div>
+      <div class="col-sm">
+        <button type="reset" class="btn btn-danger" style="font-size: 15px; padding: 2px" (click)="unlogin()">Unlogin</button>
+      </div>
+    </div>
+    <div class="login-row-hidden">
+      <div class="col-sm">
+        <button [disabled]="!loginForm.valid" id="toWorkZone" routerLink="/work-zone-bruh">To work zone</button>
+      </div>
+    </div>
+    <div class="login-row">
+      <div class="col-sm">
+        <button class="btn btn-primary" style="font-size: 15px; padding: 2px" [disabled]="!loginForm.valid" (click)="register()">Register</button>
+      </div>
+      <div class="col-sm">
+        <button type="reset" class="btn btn-warning" style="font-size: 15px; padding: 2px" routerLink="/">Back</button>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>

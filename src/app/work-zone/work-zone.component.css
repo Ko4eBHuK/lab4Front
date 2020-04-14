@@ -1,0 +1,42 @@
+.tools-container{
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: azure;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.work-container{
+  border-radius: 8px;
+  background-image: url("../../assets/media/images/ronbeksPink.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.work-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: row;
+  padding-top: 8px;
+}
+
+.col-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: row;
+}
+
+#inputXHidden, #submitHidden{
+  display: none;
+}
